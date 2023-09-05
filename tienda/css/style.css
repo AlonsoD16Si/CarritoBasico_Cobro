@@ -133,3 +133,14 @@ h1{
         font-size: 0.9rem;
     }
 }
+.table-responsive {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.table-responsive > div {
+    display: inline-block;
+    padding: 10px;
+    min-width: 100px; 
+    border: 1px solid #ccc;
+}
