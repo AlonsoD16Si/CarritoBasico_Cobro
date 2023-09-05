@@ -1,0 +1,135 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #E8CBC0; 
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0); 
+    background: linear-gradient(to right, #636FA4, #E8CBC0); 
+    
+}
+/*Alonso Daniel Lopez Silva*/
+.container {
+    flex: 1;
+    margin-top: auto;
+    max-width: 600px;
+    width: 100%;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.container form .detalles-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+thead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+tbody {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    outline: 2px solid black;
+    max-width: 600px;
+    width: 100%;
+    background: #f0876a;
+    padding: 25px 30px;
+    font-size: x-large;
+}
+
+
+.barra {
+    margin: 10px;
+    outline: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.imgMTV {
+    align-items: center;
+    height: 150px;
+    width: 210px;
+    animation: fadeIn 1s ease;
+}
+/*Alonso Daniel Lopez Silva*/
+h1{
+    color: #e7720c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn {
+    background: #6b7de6;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+    border-radius: 4px;
+    transition: color 0.15s;
+}
+
+/* Estilos específicos para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    .btn {
+        padding: 0.75em 1.5em;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn {
+        padding: 0.5em 1em;
+        font-size: 0.9rem;
+    }
+}
